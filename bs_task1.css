@@ -1,0 +1,54 @@
+
+.row p
+{
+    background-color: rgb(14, 136, 192);
+    height:50px;
+    width: 100% ;
+    margin-top:auto;
+    margin-bottom:auto;
+    padding-top: 10px;
+    text-align:center;
+    font-size: 21px;
+}
+.nav-item navbar-text
+{
+    margin-top:auto;
+    margin-bottom:auto;
+    padding-top: 10px;
+    text-align:center;
+    font-size: 15px;
+    
+}
+.shift
+{
+    margin-top: 5px;
+}
+ul>li>a
+{
+    margin-right: 50px;
+}
+.shift>li>a
+{
+    margin-right: 30px;;
+}
+.rightbox
+{
+    background: rgba(0, 0, 0, 0.801);
+    width:200px;
+    display: flex;
+    margin-left: auto;
+    height: 2000px;
+    color: aliceblue;
+    justify-content: center;
+
+}
+.left>p 
+{
+    float: left;
+    margin-left:30%;
+    justify-content: center;
+}
+
+.rightbox {
+    float:right;
+}
