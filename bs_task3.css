@@ -1,0 +1,55 @@
+#body{
+    margin: 0%;
+    padding: 0%;
+}
+#signup1{
+    border: 2px solid rgb(44, 121, 255);
+    color: rgb(44, 121, 255);
+
+}
+#signup1:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(44, 121, 255);
+
+}
+
+#signup{
+    width: 150px;
+    border: 2px solid rgb(44, 121, 255);
+    color: rgb(44, 121, 255);
+}
+#signup:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(44, 121, 255);
+
+}
+#navid{
+    box-shadow: 2px 2px 2px  rgb(99, 99, 99);
+}
+#pricing{
+    width: 600px;
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+}
+
+#contactbutt,#startbutt{
+    width: 150px;
+    border: 2px solid rgb(44, 121, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(44, 121, 255);
+
+}
+#contactbutt:hover,#startbutt:hover{
+    color: rgb(44, 121, 255);
+    background-color: white;
+
+}
+
+.card:hover{
+    scale: 1.2;
+    
+}
+.nav-item:hover{
+    color: black;
+}
