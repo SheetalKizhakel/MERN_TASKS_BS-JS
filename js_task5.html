@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <style>
+        #fname
+        {
+            margin-bottom: 20px;
+        }
+        div
+        {
+            margin-top: 50px;
+            margin-left: 50px;
+        
+        }
+        input
+        {
+            margin-bottom:20px ;
+        }
+        .error {
+            border: 1px solid red;
+        }
+        .error-message {
+            color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+    <label for="name">Name:</label>
+    <input style="margin-left: 5px;" type="text" id="name">
+    <span id="span1" class="error-message"></span>
+    <br>
+    <label for="email">Email:</label>
+    <input style="margin-left: 5px;" type="text" id="email">
+    <span id="span2" class="error-message"></span>
+    <br>
+    <label for="email">Website:</label>
+    <input style="margin-left: 5px;" type="text" id="website" >
+    <span id="span3" class="error-message"></span>
+    <br>
+    <label for="msg">Message:</label>
+    <textarea class="form-control" id="validationCustomDescription" aria-label="With textarea"></textarea>
+    <span id="span4" class="error-message"></span>
+    <br>
+    <input id="btn" type="submit" value="Submit">
+    </div>
+    <script src="js_task5.js"></script>
+</body>
+</html>

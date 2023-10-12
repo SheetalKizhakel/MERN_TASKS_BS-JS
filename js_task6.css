@@ -1,0 +1,128 @@
+/* Universal Selectors */
+body, html {
+    height:50%;
+  }
+body, button, input {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size:14px;
+    line-height:18px;
+  }
+form 
+{
+    background-color: #fafafa;
+}
+.login-box 
+{
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    
+    margin-left: 100px;
+    padding: 10px 0;
+    width:600px
+    
+  }
+  
+  .header {
+    margin: 14.45px auto 12px;
+  }
+  
+  .logo {
+    background: cover no-repeat;
+    width:175px;
+    height:auto;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    -moz-box-direction: normal;
+    -webkit-box-direction: normal;
+  }
+  
+  .input-box {
+    margin:auto 40px 6px;
+  }
+  
+  input {
+    height: 36px;
+    border: 1px solid #efefef;
+    border-radius: 3px;
+    background-color: #fafafa;
+    width:100%;
+    font-size:12px;
+    margin-left: 45px;
+    padding: 9px 0 7px 8px;
+    outline: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+  }
+  
+  
+  .button-box {
+    display: block;
+    position: relative;
+    margin: 8px 40px;
+  }
+  .btn 
+  {
+
+    width: 100%;
+    padding:0 8px; 
+    background: #3897f0;
+    border:1px solid #3897f0;
+    color:#fff;
+    border-radius:3px;
+    font-weight:600;
+    font-size: 14px;
+    height: 28px;
+    
+}
+  
+  .forgot{
+    font-size:12px;
+    margin-top:12px;
+    text-align: center;
+    color:#003569;
+    margin-left: 400px;
+   
+  }
+  
+  .text {
+    text-align:center;
+    margin:15px;
+    color:#262626;
+    font-size:14px;
+  }
+  
+  .text a
+  {
+    color:#3897f0;
+    margin-left:3px;
+  }
+  .input-container {
+    display: flex; /* Use flexbox to align items vertically */
+    align-items: center; /* Align items vertically in the center */
+}
+
+
+.logo{
+    position: relative;
+    top:70px;
+    left:300px
+   
+}
+#rem
+{
+    margin:0;
+    height:15px;
+    width:15px;
+    margin-right: 5px;
+    display:inline;
+}
+
+ 
+ 
+  
