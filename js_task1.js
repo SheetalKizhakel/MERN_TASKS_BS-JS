@@ -1,11 +1,11 @@
-const userInput = document.querySelector('#fname'); // Getting the user input element
-        const btn = document.querySelector('#btn');//making the button the target
+const userInput = document.querySelector('#fname'); 
+        const btn = document.querySelector('#btn');
 
-        btn.addEventListener('click', reverse);//trigger function reverse on clicking
+        btn.addEventListener('click', reverse);
 
         function reverse() {
-            const inputText = userInput.value; // Get the value entered by the user as a string.use.value to find value of parameter entered
-            let num = parseInt(inputText); // Convert the string to a number
+            const inputText = userInput.value; 
+            let num = parseInt(inputText); 
 
             let rev = 0;
             let rem;
@@ -16,5 +16,5 @@ const userInput = document.querySelector('#fname'); // Getting the user input el
                 num = Math.floor(num / 10);
             }
 
-            document.getElementById("lname").value = rev;//make the value fore reversed number textbox as reversed number
+            document.getElementById("lname").value = rev;
         }
